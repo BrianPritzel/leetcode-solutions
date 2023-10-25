@@ -2,14 +2,14 @@
   "name": "2620",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "src/main.js",
   "type": "module",
   "scripts": {
-    "test": "jest"
+    "test": "vitest --run"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^29.7.0"
+    "vitest": "^0.34.6"
   }
 }

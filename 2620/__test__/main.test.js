@@ -1,4 +1,5 @@
-import main from "./main";
+import { expect, test } from "vitest"
+import main from "../src/main.js"
 
 test("example 1", () => {
     //arrange
