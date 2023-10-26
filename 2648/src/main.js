@@ -1,4 +1,5 @@
-export function* fibGen(nums, fn, init) {        let accum = 0
+export function* fibGen(nums, fn, init) {
+    let accum = 0
     let curr = 1
     yield accum
     yield curr
