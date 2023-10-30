@@ -1,8 +1,6 @@
 import { expect, test } from "vitest"
 import { addTwoPromises } from "../src/main.js"
 
-//Given two promises promise1 and promise2, return a new promise. promise1 and promise2 will both resolve with a number. The returned promise should resolve with the sum of the two numbers.
-
 test("example 1", async () => {
     const promise1 = Promise.resolve(2,20)
     const promise2 = Promise.resolve(5,60)
