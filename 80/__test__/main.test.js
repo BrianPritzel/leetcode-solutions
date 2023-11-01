@@ -3,9 +3,9 @@ import { removeDuplicates } from "../src/main.js"
 
 test("example 1", () => {
     //arrange
-    const nums = [1, 1, 2]
-    const expectedNums = [1, 2]
-    
+    const nums = [1, 1, 1, 2, 2, 3]
+    const expectedNums = [1, 1, 2, 2, 3]
+
     //act
     const k = removeDuplicates(nums)
 
@@ -18,8 +18,8 @@ test("example 1", () => {
 
 test("example 2", () => {
     //arrange
-    const nums = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]
-    const expectedNums = [0, 1, 2, 3, 4]
+    const nums = [0, 0, 1, 1, 1, 1, 2, 3, 3]
+    const expectedNums = [0, 0, 1, 1, 2, 3, 3]
 
     //act
     const k = removeDuplicates(nums)
